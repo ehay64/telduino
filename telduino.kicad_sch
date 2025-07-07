@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5cc2b44a-1d3f-41d7-974f-d3bae01da20c")
+	(paper "A4")
+	(title_block
+		(title "Telduino")
+		(date "2024-11-13")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 119.38 68.58)
+		(size 21.59 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "433ad252-d51f-42b3-aeef-0fb7f623c482")
+		(property "Sheetname" "Arduino"
+			(at 119.38 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "arduino.kicad_sch"
+			(at 119.38 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "telduino"
+				(path "/5cc2b44a-1d3f-41d7-974f-d3bae01da20c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

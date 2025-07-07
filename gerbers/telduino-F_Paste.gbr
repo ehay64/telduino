@@ -1,0 +1,70 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.6-8.0.6-0~ubuntu22.04.1*%
+%TF.CreationDate,2024-11-16T23:11:06-08:00*%
+%TF.ProjectId,telduino,74656c64-7569-46e6-9f2e-6b696361645f,0.1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Top*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.6-8.0.6-0~ubuntu22.04.1) date 2024-11-16 23:11:06*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%ADD10RoundRect,0.250000X-0.475000X0.337500X-0.475000X-0.337500X0.475000X-0.337500X0.475000X0.337500X0*%
+%ADD11RoundRect,0.250000X-0.537500X-0.425000X0.537500X-0.425000X0.537500X0.425000X-0.537500X0.425000X0*%
+%ADD12RoundRect,0.250000X0.450000X-0.350000X0.450000X0.350000X-0.450000X0.350000X-0.450000X-0.350000X0*%
+%ADD13RoundRect,0.250000X-0.337500X-0.475000X0.337500X-0.475000X0.337500X0.475000X-0.337500X0.475000X0*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,C3*%
+X149098000Y-90148500D03*
+X149098000Y-92223500D03*
+%TD*%
+D11*
+%TO.C,C2*%
+X139024500Y-92456000D03*
+X141899500Y-92456000D03*
+%TD*%
+D12*
+%TO.C,R2*%
+X120592000Y-90154000D03*
+X120592000Y-88154000D03*
+%TD*%
+%TO.C,R3*%
+X123190000Y-90154000D03*
+X123190000Y-88154000D03*
+%TD*%
+%TO.C,R4*%
+X125730000Y-90154000D03*
+X125730000Y-88154000D03*
+%TD*%
+D13*
+%TO.C,C1*%
+X138916500Y-89916000D03*
+X140991500Y-89916000D03*
+%TD*%
+D10*
+%TO.C,C4*%
+X146812000Y-90148500D03*
+X146812000Y-92223500D03*
+%TD*%
+M02*
